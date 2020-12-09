@@ -50,7 +50,7 @@ div.cover p {
 div.cover_contact {
     /*background: #ff000040;*/
     position: relative;
-    margin-top: -275px;
+    margin-top: -280px;
     margin-left: 20px;
     border-left:4px solid var(--color1);
     padding-left: 8px;
@@ -69,7 +69,7 @@ div.cover_contact p:first-child {
 
 div.cover * {
    color: white;
-   font-size: 14px;
+   font-size: 13px;
 }
 
 a.contact_button {
@@ -117,7 +117,7 @@ div.section_grise2 {
     padding-top: 80px;
 }
 
-div.Infos_CV h3 {
+div.Infos_CV h4 {
     border:1px solid black;
 }
 
