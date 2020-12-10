@@ -2,11 +2,12 @@
     --color1: #d89584;
     --color2: #f4f4f4;
 }
-
+/*Pour éviter les débordement hors zones*/
 * {
 overflow: auto;
 }
 
+/*Pour réaliser une page avec des marge : partie bleu*/
 div.contenu {
     background: white;
     margin: 75px 8% 75px 10%;
@@ -20,7 +21,7 @@ body {
     background: hsl(207, 30%, 62%);
     font-family: Arial;
 }
-
+/*Photo de fond couverture*/
 div.cover {
     background: url(cover_overlay.png) no-repeat center/100% 100%, url(cover.jpg) no-repeat center/cover;
     height: 400px;
@@ -60,12 +61,6 @@ div.cover_contact {
 div.cover_contact p:first-child {
     text-align: left;
 }
-
-/*.cover_contact p {
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}*/
 
 div.cover * {
    color: white;
@@ -143,68 +138,54 @@ div.hauteur_separateur {
     height:10px;
 }
 
-div.picture {
-   width: 100%;
+section.picture {
+    /*background: #ff000040;*/
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
 }
 
 .col1 {
-    width: 25%;
-    padding: 5px;
-    border: 2px solid;
-    height: 100%;
+    width: 95%;
+    height: 95%;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
 }
 
-
 .col2 {
-    width: 25%;
-    padding: 5px;
-    border: 2px solid;
-    height: 100%;
+    width: 95%;
+    height: 95%;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
 }
 
 .col3 {
-    width: 25%;
-    padding: 5px;
-    border: 2px solid;
-    height: 100%;
+    width: 95%;
+    height: 95%;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
 }
 
 
 /*Styles pour ordinateur*/
 @media only screen and (min-width: 768px) {
-div.contenu {
-    margin-left: auto;
-    margin-right: auto;
-    /*min-width: 350px;
-    max-width: 1000px;*/
-    }
+    div.contenu {
+        margin-left: auto;
+        margin-right: auto;
+        }
 
     div.cover_contact {
-    /*background: #ff000040;*/
-    position: relative;
-    margin-top: -250px;
-    margin-left: 20px;
-    border-left:4px solid var(--color1);
-    padding-left: 8px;
-    padding-right: 8px;
-    }
-
-    div.picture {
-        margin-left: 8%;
-        margin-right: 3%;
-     }
-
-     .col1 {
-        max-height: 126px;
-    }
-    
-    
-    .col2 {
-        max-height: 160px;
-    }
-
-    .col3 {
-        max-height: 126px;
-    }
+        /*background: #ff000040;*/
+        position: relative;
+        margin-top: -250px;
+        margin-left: 20px;
+        border-left:4px solid var(--color1);
+        padding-left: 8px;
+        padding-right: 8px;
+        }
     
 }
