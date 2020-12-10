@@ -21,7 +21,7 @@ body {
     background: hsl(207, 30%, 62%);
     font-family: Arial;
 }
-/*Photo de fond couverture*/
+
 div.cover {
     background: url(cover_overlay.png) no-repeat center/100% 100%, url(cover.jpg) no-repeat center/cover;
     height: 400px;
@@ -113,6 +113,7 @@ div.section_grise2 {
 }
 
 div.Infos_CV h4 {
+    background-color: #d3d1d140;
     border:1px solid black;
 }
 
@@ -141,35 +142,35 @@ div.hauteur_separateur {
 section.picture {
     /*background: #ff000040;*/
     display: grid; grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .col1 {
-    width: 95%;
-    height: 95%;
-    padding: 2px;
+    width: 90%;
+    height: 90%;
+    /*padding: 5px;*/
     margin-left: auto;
     margin-right: auto;
     border: 1px solid;
 }
 
 .col2 {
-    width: 95%;
-    height: 95%;
-    padding: 2px;
+    width: 90%;
+    height: 90%;
+    /*padding: 5px;*/
     margin-left: auto;
     margin-right: auto;
     border: 1px solid;
 }
 
 .col3 {
-    width: 95%;
-    height: 95%;
-    padding: 2px;
+    width: 90%;
+    height: 90%;
+    /*padding: 5px;*/
     margin-left: auto;
     margin-right: auto;
     border: 1px solid;
 }
-
 
 /*Styles pour ordinateur*/
 @media only screen and (min-width: 768px) {
@@ -187,5 +188,38 @@ section.picture {
         padding-left: 8px;
         padding-right: 8px;
         }
+
+    section.picture {
+        /*background: #ff000040;*/
+        display: grid; grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+    
+    .col1 {
+        width: 90%;
+        height: 90%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid;
+    }
+    
+    .col2 {
+        width: 90%;
+        height: 90%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid;
+    }
+    
+    .col3 {
+        width: 90%;
+        height: 90%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid;
+    }
     
 }
