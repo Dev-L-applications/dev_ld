@@ -141,38 +141,28 @@ div.hauteur_separateur {
 
 section.picture {
     /*background: #ff000040;*/
-    display: grid; grid-template-columns: 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .col1 {
-    width: 90%;
-    height: 90%;
-    /*padding: 5px;*/
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid;
+    height: 120px;
+    width: 100%;
 }
 
 .col2 {
-    width: 90%;
-    height: 90%;
-    /*padding: 5px;*/
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid;
+    height: 120px;
+    width: 100%;
 }
 
 .col3 {
-    width: 90%;
-    height: 90%;
-    /*padding: 5px;*/
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid;
+    height: 120px;
+    width: 100%;
 }
 
-/*Styles pour ordinateur*/
+/*Styles pour ordinateur avec une condition de dimension*/
 @media only screen and (min-width: 768px) {
     div.contenu {
         margin-left: auto;
@@ -221,5 +211,4 @@ section.picture {
         margin-right: auto;
         border: 1px solid;
     }
-    
 }
