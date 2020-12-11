@@ -52,7 +52,7 @@ div.cover_contact {
     /*background: #ff000040;*/
     position: relative;
     margin-top: -280px;
-    margin-left: 20px;
+    margin-left: 25px;
     border-left:4px solid var(--color1);
     padding-left: 8px;
     padding-right: 8px;
@@ -129,10 +129,10 @@ div.Infos_CV span {
 div.separateur {
     background-color: #979797;
     height: 1px;
-    width: 150px;
+    width: 180px;
     position: relative;
     left: 50%;
-    margin-left: -75px;
+    margin-left: -90px;
 }
 
 div.hauteur_separateur {
