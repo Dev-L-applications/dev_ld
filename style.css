@@ -162,6 +162,16 @@ section.picture {
     width: 100%;
 }
 
+.rotate div img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+.rotate div:hover img {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
 /*Styles pour ordinateur avec une condition de dimension*/
 @media only screen and (min-width: 768px) {
     div.contenu {
@@ -211,4 +221,14 @@ section.picture {
         margin-right: auto;
         border: 1px solid;
     }
+
+    .rotate div img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+.rotate div:hover img {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
 }
