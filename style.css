@@ -172,11 +172,10 @@ section.picture {
   transform: rotate(-15deg);
 }
 
-div.picture_langages {
-    min-width:50%;
-    min-height:50%;
-    max-height: 20vh;
-    text-align: center;
+.picture_langages {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Styles pour ordinateur avec une condition de dimension*/
@@ -239,9 +238,11 @@ div.picture_langages {
   transform: rotate(-15deg);
 }
 
-div.picture_langages {
-    text-align: center;
-    position: relative;
+.picture_langages {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 }
