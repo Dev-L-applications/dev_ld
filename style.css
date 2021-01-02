@@ -1,5 +1,5 @@
 :root {
-    --color1: #d89584;
+    --color1: #d89584; /* Variable qui permet de d'etre utilisée dans différents bloc css*/
     --color2: #f4f4f4;
 }
 /*Pour éviter les débordement hors zones*/
@@ -172,6 +172,13 @@ section.picture {
   transform: rotate(-15deg);
 }
 
+div.picture_langages {
+    min-width:50%;
+    min-height:50%;
+    max-height: 20vh;
+    text-align: center;
+}
+
 /*Styles pour ordinateur avec une condition de dimension*/
 @media only screen and (min-width: 768px) {
     div.contenu {
@@ -231,4 +238,10 @@ section.picture {
   -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
 }
+
+div.picture_langages {
+    text-align: center;
+    position: relative;
+}
+
 }
