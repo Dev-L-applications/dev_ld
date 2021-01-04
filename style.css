@@ -145,19 +145,19 @@ section.picture {
 }
 
 .col1 {
-    border: 1px solid;
+    /*border: 1px solid;*/
     height: 120px;
     width: 100%;
 }
 
 .col2 {
-    border: 1px solid;
+    /*border: 1px solid;*/
     height: 120px;
     width: 100%;
 }
 
 .col3 {
-    border: 1px solid;
+    /*border: 1px solid;*/
     height: 120px;
     width: 100%;
 }
@@ -176,6 +176,15 @@ section.picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.slide div img {
+	margin-left: 0px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.slide div:hover img {
+	margin-left: -30px;
 }
 
 /*Styles pour ordinateur avec une condition de dimension*/
@@ -207,7 +216,7 @@ section.picture {
         padding: 5px;
         margin-left: auto;
         margin-right: auto;
-        border: 1px solid;
+        /*border: 1px solid;*/
     }
     
     .col2 {
@@ -216,7 +225,7 @@ section.picture {
         padding: 5px;
         margin-left: auto;
         margin-right: auto;
-        border: 1px solid;
+        /*border: 1px solid;*/
     }
     
     .col3 {
@@ -225,7 +234,7 @@ section.picture {
         padding: 5px;
         margin-left: auto;
         margin-right: auto;
-        border: 1px solid;
+        /*border: 1px solid;*/
     }
 
     .rotate div img {
