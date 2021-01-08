@@ -90,11 +90,11 @@ a.contact_button:hover {
 }
 
 div.section_grise1 {
-    height: 85px;
+    height: 90px;
     background: url(triangle2white.svg) no-repeat center bottom /100%;
     background-color: var(--color2);
-    padding-top: 30px; 
-    padding-bottom: 80px;
+    padding-top: 28px; 
+    padding-bottom: 70px;
 }
 
 div.section_grise1 p{
