@@ -187,13 +187,16 @@ section.picture {
 	margin-left: -30px;
 }
 
-.buttonCalcul {
+.buttonExemple {
     /* centrage vertical */
- line-height: 50px;
- vertical-align: middle;
- /* centrage horizontal */
- text-align: center;
-}
+    line-height: 50px;
+    vertical-align: middle;
+    /* centrage horizontal */
+    text-align: center;
+    }
+  
+
+
 
 /*Styles pour ordinateur avec une condition de dimension*/
 @media only screen and (min-width: 768px) {
