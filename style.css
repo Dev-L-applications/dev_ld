@@ -51,7 +51,7 @@ div.cover p {
 div.cover_contact {
     /*background: #ff000040;*/
     position: relative;
-    margin-top: -280px;
+    margin-top: -295px;
     margin-left: 25px;
     border-left:4px solid var(--color1);
     padding-left: 8px;
@@ -74,7 +74,7 @@ a.contact_button {
     text-decoration: none;
     background: #00000040;
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 50px;
     font-size: 14px;
 }
 a.contact_button:hover {
@@ -208,7 +208,7 @@ section.picture {
     div.cover_contact {
         /*background: #ff000040;*/
         position: relative;
-        margin-top: -250px;
+        margin-top: -290px;
         margin-left: 20px;
         border-left:4px solid var(--color1);
         padding-left: 8px;
@@ -219,6 +219,13 @@ section.picture {
         /*background: #ff000040;*/
         display: grid; grid-template-columns: 1fr 1fr 1fr;
     
+    }
+    div.section_grise1 {
+        height: 90px;
+        background: url(triangle2white.svg) no-repeat center bottom /100%;
+        background-color: var(--color2);
+        padding-top: 28px; 
+        padding-bottom: 70px;
     }
     
     .col1 {
