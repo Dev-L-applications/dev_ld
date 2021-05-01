@@ -51,7 +51,7 @@ div.cover p {
 div.cover_contact {
     /*background: #ff000040;*/
     position: relative;
-    margin-top: -295px;
+    margin-top: -310px;
     margin-left: 25px;
     border-left:4px solid var(--color1);
     padding-left: 8px;
