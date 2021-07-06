@@ -1,0 +1,324 @@
+
+:root {
+    --color1: #d89584; /* Variable qui permet de d'etre utilisée dans différents bloc css*/
+    --color2: #DCDCDC;
+}
+
+/*Pour éviter les débordement hors zones*/
+* {
+    overflow: auto;
+}
+
+/*Pour réaliser une page avec des marge : partie bleu*/
+div.contenu {
+    background: white;
+    margin: 75px 8% 75px 10%;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+/*Position et dimensions corps*/
+body {
+    min-width: 350px;
+    max-width: 1000px;
+    margin: 2% 23% 2% 23%;
+    background: #000000;
+    font-family: Arial;
+}
+
+div.cover {
+    background: url(cover_overlay.png) no-repeat center/100% 100%, url(cover.jpg) no-repeat center/cover;
+    height: 400px;
+}
+
+img.cover_profile {
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -85px;
+    margin-top: 50px;
+    border-radius: 30px;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: large; 
+}
+
+div.cover p {
+    color: lightgrey;
+    text-align: center;
+}
+
+div.cover_contact {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left:4px solid var(--color1);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+div.cover_contact p:first-child {
+    text-align: left;
+}
+
+div.cover * {
+    color: white;
+    font-size: 13px;
+}
+
+/*Bouton Ecole*/
+a.contact_button {
+    color: var(--color1);
+    border: 3px solid var(--color1);
+    padding: 8px 20px;
+    text-decoration: none;
+    background: #00000040;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 10px;
+}
+
+a.contact_button:hover {
+    color: white;
+    border: 3px solid white;
+}
+
+.section {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+/*Partie images et triangle gris*/
+div.section_grise1 {
+    height: 150px;
+    background: url(triangle2white.svg) no-repeat center bottom /150%;
+    background-color: var(--color2);
+    padding-top: 30px; 
+    padding-bottom: 250px;
+    font-style: italic;
+    font-size: small;
+}
+
+div.section_grise1 p{
+    font-size: 11px;
+    color: #656565;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    line-height: 1.5;
+}
+
+/*Icons dans boutons*/
+.card svg.material-icons path {
+    fill: #888;
+}
+  
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+}
+  
+.card {
+    border-radius: 10px;
+    border: 2px solid #eee;
+    background-color: #fafafa;
+    height: 50px;
+    width: 245px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    color: #000000;
+    font-weight: bold;
+}
+  
+.card-container .card:not(:last-child) {
+    margin-right: 0;
+}
+  
+.card-container .card:not(.highlight-card):hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 17px rgba(0, 0, 0, 0.35);
+}
+
+
+  
+  
+svg#rocket-smoke {
+    height: calc(100vh - 95px);
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    z-index: -10;
+}
+
+span {
+    padding-left: 15px;
+}
+
+p {
+        padding-left: 15px;
+}
+
+div.section_grise2 {
+    background: url(triangle1white.svg) no-repeat center top /100%;
+    background-color: var(--color2);
+    padding-top: 80px;
+}
+
+div.Infos_CV h4 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+div.Infos_CV p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/*div.Infos_CV span {
+    font-weight: bold;
+}*/
+
+div.separateur {
+    background-color: #979797;
+    height: 1px;
+    width: 180px;
+    position: relative;
+    left: 50%;
+    margin-left: -90px;
+}
+
+div.hauteur_separateur {
+    height:10px;
+}
+
+section.picture {
+    /*background: #ff000040;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.col1 {
+    /*border: 1px solid;*/
+    height: 90px;
+    width: 85%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col2 {
+    /*border: 1px solid;*/
+    height: 90px;
+    width: 85%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col3 {
+    /*border: 1px solid;*/
+    height: 90px;
+    width: 85%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Styles pour ordinateur avec une condition de dimension*/
+@media only screen and (min-width: 768px) {
+    div.contenu {
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+    div.cover_contact {
+        /*background: #ff000040;*/
+        position: relative;
+        margin-top: -290px;
+        margin-left: 20px;
+        border-left:4px solid var(--color1);
+        padding-left: 8px;
+        padding-right: 8px;
+        }
+    
+    a.contact_button{
+        font-size: 16px;
+    }
+
+    div.cover h1 {
+        font-size: large; 
+    }
+
+    section.picture {
+        /*background: #ff000040;*/
+        display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    }
+    div.section_grise1 {
+        height: 90px;
+        background: url(triangle2white.svg) no-repeat center bottom /100%;
+        background-color: var(--color2);
+        padding-top: 40px; 
+        padding-bottom: 70px;
+    }
+    
+    .col1 {
+        width: 85%;
+        height: 85%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: 1px solid;*/
+    }
+    
+    .col2 {
+        width: 85%;
+        height: 85%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: 1px solid;*/
+    }
+    
+    .col3 {
+        width: 85%;
+        height: 85%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: 1px solid;*/
+    }
+
+    .rotate div img {
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+ 
+        .rotate div:hover img {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+
+    .picture_langages {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        height: 25px;
+        width: 260px;
+    }
+}
