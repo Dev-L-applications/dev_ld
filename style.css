@@ -60,6 +60,11 @@ div.cover_contact {
     text-align: center;
 }
 
+.texteIntro{
+    font-style: bold;
+    font-size: 12px;
+}
+
 div.cover_contact p:first-child {
     text-align: left;
 }
@@ -105,7 +110,8 @@ div.section_grise1 {
 }
 
 div.section_grise1 p{
-    font-size: 11px;
+    font-size: 16px;
+    font-weight: bold;
     color: #656565;
     margin-left: auto;
     margin-right: auto;
